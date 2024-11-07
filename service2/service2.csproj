@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <!--
+    El atributo Sdk indica que el proyecto está basado en ASP.NET Core Web,
+    lo que significa que es una aplicación web.
+  -->
+
+  <PropertyGroup>
+    <!--
+      Definimos la configuración del proyecto dentro de un PropertyGroup.
+    -->
+
+    <TargetFramework>net6.0</TargetFramework>
+    <!--
+      Especificamos que el proyecto usa el framework .NET 6.0 para la compilación y ejecución.
+    -->
+
+    <Nullable>enable</Nullable>
+    <!--
+      Habilitamos las referencias anulables en C#, lo que hace que los tipos de referencia
+      sean tratados como anulables por defecto, ayudando a prevenir problemas con valores nulos.
+    -->
+
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!--
+      Habilitamos los "usos implícitos" de los espacios de nombres comunes, como System,
+      Microsoft.AspNetCore.Mvc, etc., lo que significa que no necesitamos incluirlos manualmente
+      en cada archivo de código.
+    -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      Agrupamos las referencias a paquetes NuGet que necesita el proyecto.
+    -->
+
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <!--
+      Agregamos el paquete Swashbuckle.AspNetCore en la versión 6.2.3, que se utiliza
+      para generar la documentación de la API en formato Swagger y proporciona una UI interactiva
+      para probar los endpoints de la API.
+    -->
+  </ItemGroup>
+
+</Project>

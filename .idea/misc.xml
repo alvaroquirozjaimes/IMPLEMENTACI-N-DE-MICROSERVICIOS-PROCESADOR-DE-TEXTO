@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Define la versión XML y la codificación usada en el archivo. -->
+
+<project version="4">
+  <!-- Define el elemento raíz del proyecto y establece la versión del archivo de configuración (4 en este caso). -->
+
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <!-- Configura el componente ProjectRootManager, que maneja la configuración global del proyecto.
+         A continuación, se explican los atributos usados:
+
+         - version="2": La versión del ProjectRootManager.
+         - languageLevel="JDK_17": Define el nivel de lenguaje a utilizar. Aquí se especifica Java 17.
+         - default="true": Indica que esta es la configuración predeterminada del proyecto.
+         - project-jdk-name="17": Especifica el nombre del JDK que usa el proyecto (Java 17 en este caso).
+         - project-jdk-type="JavaSDK": Define el tipo de SDK, en este caso JavaSDK. -->
+
+    <output url="file://$PROJECT_DIR$/out" />
+    <!-- Define la ubicación del directorio de salida, donde se almacenan los archivos compilados del proyecto.
+         "$PROJECT_DIR$" es una variable que representa el directorio raíz del proyecto. -->
+
+  </component>
+</project>

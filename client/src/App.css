@@ -1,0 +1,40 @@
+.App {
+  text-align: center; /* Centra el contenido de la clase .App (probablemente el contenedor principal de la aplicación) */
+}
+
+.App-logo {
+  height: 40vmin; /* Establece la altura de la imagen con la clase .App-logo en un 40% de la dimensión más pequeña (ya sea ancho o alto) de la ventana */
+  pointer-events: none; /* Desactiva las interacciones del ratón (como hacer clic) sobre la imagen */
+}
+
+/* Regla condicional que aplica solo cuando el usuario prefiere no reducir el movimiento (por ejemplo, si la animación no es un problema para el usuario) */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear; /* Aplica la animación de rotación a la imagen .App-logo, girando infinitamente durante 20 segundos */
+  }
+}
+
+.App-header {
+  background-color: #282c34; /* Establece un fondo oscuro para el encabezado */
+  min-height: 100vh; /* El mínimo alto del encabezado es el 100% de la altura de la ventana */
+  display: flex; /* Utiliza un modelo de flexbox para el contenedor */
+  flex-direction: column; /* Los elementos hijos (probablemente logo y texto) se dispondrán en una columna */
+  align-items: center; /* Centra los elementos hijos horizontalmente */
+  justify-content: center; /* Centra los elementos hijos verticalmente */
+  font-size: calc(10px + 2vmin); /* Calcula dinámicamente el tamaño de la fuente en función del tamaño de la ventana */
+  color: white; /* Establece el color del texto en blanco */
+}
+
+.App-link {
+  color: #61dafb; /* Establece el color de los enlaces con la clase .App-link a un tono azul claro */
+}
+
+/* Definición de la animación que hace girar la imagen del logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); /* El logo comienza sin rotación (0 grados) */
+  }
+  to {
+    transform: rotate(360deg); /* El logo rota 360 grados */
+  }
+}

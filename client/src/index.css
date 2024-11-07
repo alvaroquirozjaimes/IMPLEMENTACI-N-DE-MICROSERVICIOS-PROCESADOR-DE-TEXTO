@@ -1,0 +1,19 @@
+/* Aplica estilos al cuerpo de la página */
+body {
+  margin: 0; /* Elimina el margen predeterminado del navegador */
+
+  /* Define las fuentes utilizadas para el texto del cuerpo de la página */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  /* Este es un conjunto de fuentes alternativas que se probarán en orden. La primera fuente disponible será la que se use. */
+
+  -webkit-font-smoothing: antialiased; /* Mejora la suavidad de las fuentes en WebKit (usado por Chrome, Safari, etc.) */
+  -moz-osx-font-smoothing: grayscale; /* Mejora la suavidad de las fuentes en Firefox en macOS */
+}
+
+/* Aplica estilos al elemento 'code' (para mostrar código) */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; /* Define las fuentes para mostrar texto en un estilo monoespaciado, típico para código */
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Define la versión XML y la codificación usada en el archivo. -->
+
+<project version="4">
+  <!-- Define el elemento raíz para la configuración del proyecto y establece la versión del archivo de configuración (4 en este caso). -->
+
+  <component name="ProjectModuleManager">
+    <!-- Configura el componente ProjectModuleManager, encargado de gestionar los módulos del proyecto. -->
+
+    <modules>
+      <!-- Contenedor de los módulos del proyecto. Cada módulo representa una unidad funcional de código dentro del proyecto. -->
+
+      <module fileurl="file://$PROJECT_DIR$/.idea/MicroserviciosProcessText-main.iml" filepath="$PROJECT_DIR$/.idea/MicroserviciosProcessText-main.iml" />
+      <!-- Define un módulo específico del proyecto, con las siguientes configuraciones:
+
+           - fileurl="file://$PROJECT_DIR$/.idea/MicroserviciosProcessText-main.iml":
+             Especifica la URL del archivo `.iml`, que contiene la configuración del módulo.
+
+           - filepath="$PROJECT_DIR$/.idea/MicroserviciosProcessText-main.iml":
+             Define la ruta en el sistema de archivos hacia el archivo `.iml`.
+
+           Este archivo `.iml` almacena configuraciones individuales del módulo, como dependencias, configuraciones de compilación,
+           y propiedades específicas del módulo "MicroserviciosProcessText-main". -->
+
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Especifica la versión XML y la codificación utilizada en el archivo. -->
+
+<module type="JAVA_MODULE" version="4">
+  <!-- Define el tipo de módulo como un módulo de Java y la versión del formato de archivo (4 en este caso). -->
+
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <!-- Define un componente encargado de gestionar la configuración del módulo.
+         'inherit-compiler-output="true"' indica que se usará la configuración de salida del compilador
+         heredada del proyecto principal (si existe una configuración global). -->
+
+    <exclude-output />
+    <!-- Excluye el directorio de salida (el lugar donde se guardan los archivos compilados)
+         de los recursos del módulo, para evitar que se consideren en el proyecto como archivos fuente. -->
+
+    <content url="file://$MODULE_DIR$" />
+    <!-- Especifica la ubicación del contenido del módulo. "$MODULE_DIR$" es una variable que
+         representa el directorio base de este módulo. -->
+
+    <orderEntry type="inheritedJdk" />
+    <!-- Configura el módulo para utilizar el JDK heredado de la configuración general del proyecto.
+         Esto asegura que todos los módulos usen el mismo JDK sin configuraciones específicas. -->
+
+    <orderEntry type="sourceFolder" forTests="false" />
+    <!-- Define una entrada de orden para el contenido fuente del módulo.
+         'forTests="false"' indica que este directorio es para código de producción, no para pruebas. -->
+
+  </component>
+</module>
