@@ -1,5 +1,5 @@
-# MicroserviciosExampleEDteam
-Este es un ejemplo de Microservicios del curso de EDteam
+# MicroserviciosProcessText
+Este es un ejemplo de Microservicios
 
 1. Ejecuta servicio 1 usando "dotnet run"
 2. Ejecuta servicio 2 usando "dotnet run"
